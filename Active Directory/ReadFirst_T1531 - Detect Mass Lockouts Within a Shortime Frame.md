@@ -29,6 +29,17 @@ let TotalLockouts = SecurityEvent
 union LockoutDetails, TotalLockouts
 ```
 
+## Expected output
+
+| TimeGenerated [UTC]      | EventID  | TargetUserName | Computer Name  | Domain                     |
+|--------------------------|----------|----------------|----------------|----------------------------|
+| 9/27/2024, 1:57:10.214 PM| 4740     | LockMeOut5     | WINDEV2311EVAL | DC01.logs4loot.com         |
+| 9/27/2024, 1:57:09.143 PM| 4740     | LockMeOut4     | WINDEV2311EVAL | DC01.logs4loot.com         |
+| 9/27/2024, 1:57:08.043 PM| 4740     | LockMeOut3     | WINDEV2311EVAL | DC01.logs4loot.com         |
+| 9/27/2024, 1:57:06.289 PM| 4740     | LockMeOut2     | WINDEV2311EVAL | DC01.logs4loot.com         |
+| 9/27/2024, 1:57:04.575 PM| 4740     | LockMeOut1     | WINDEV2311EVAL | DC01.logs4loot.com         |
+| 9/26/2024, 9:17:17.075 PM| 4740     | MSmith         | WINDEV2311EVAL | DC01.logs4loot.com         |
+
 # Step by Step Breakdown of the Query
 
 ## LockoutDetails
